@@ -12,7 +12,7 @@ const Map=() => {
     const classes = useStyles();
     const isMobile = useMediaQuery('(min-width:600px)');
 
-    const coordinates={lat:0 , lng:0};
+    const coordinates={lat:28.6139 , lng:77.2090};
     return (
       <div className={classes.mapContainer}>
            <GoogleMapReact
